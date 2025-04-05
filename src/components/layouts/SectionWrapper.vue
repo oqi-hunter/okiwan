@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <RouterView />
+  <section class="py-24">
+    <slot></slot>
+  </section>
 </template>
-
-<style scoped lang="scss"></style>

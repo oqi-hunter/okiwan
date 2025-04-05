@@ -11,10 +11,5 @@
     "noUncheckedSideEffectImports": true
   },
   "types": ["unplugin-vue-router/auto-routes"],
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "./typed-router.d.ts"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "./typed-router.d.ts"]
 }
