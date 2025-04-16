@@ -10,12 +10,12 @@ const isOpen = ref(false); // メニューの開閉状態を管理
     <img src="/okiwan-logo-l.svg" alt="okiwan" class="h-[60px]" />
     <!-- メニュー（PC表示） -->
     <nav class="hidden space-x-12 text-xl font-bold text-white xl:flex">
-      <a href="/#introduction">会社紹介</a>
-      <a href="/#service">サービス</a>
-      <a href="/#staff">スタッフ</a>
-      <a href="/#recruit">採用情報</a>
-      <a href="/#sns">ソーシャルメディア</a>
-      <a href="/#access">アクセス</a>
+      <a href="/okiwan/#introduction">会社紹介</a>
+      <a href="/okiwan/#service">サービス</a>
+      <a href="/okiwan/#staff">スタッフ</a>
+      <a href="/okiwan/#recruit">採用情報</a>
+      <a href="/okiwan/#sns">ソーシャルメディア</a>
+      <a href="/okiwan/#access">アクセス</a>
     </nav>
 
     <!-- ハンバーガーメニュー（モバイル表示） -->
@@ -27,12 +27,12 @@ const isOpen = ref(false); // メニューの開閉状態を管理
 
     <!-- モバイル用ドロワーメニュー -->
     <div v-if="isOpen" class="absolute top-20 right-0 flex h-max flex-col space-y-4 bg-orange-500 px-6 py-6 font-bold text-white md:hidden">
-      <a href="/#introduction" @click="isOpen = false">会社紹介</a>
-      <a href="/#service" @click="isOpen = false">サービス</a>
-      <a href="/#staff" @click="isOpen = false">スタッフ</a>
-      <a href="/#recruit" @click="isOpen = false">採用情報</a>
-      <a href="/#sns" @click="isOpen = false">ソーシャルメディア</a>
-      <a href="/#access" @click="isOpen = false">アクセス</a>
+      <a href="/okiwan/#introduction" @click="isOpen = false">会社紹介</a>
+      <a href="/okiwan/#service" @click="isOpen = false">サービス</a>
+      <a href="/okiwan/#staff" @click="isOpen = false">スタッフ</a>
+      <a href="/okiwan/#recruit" @click="isOpen = false">採用情報</a>
+      <a href="/okiwan/#sns" @click="isOpen = false">ソーシャルメディア</a>
+      <a href="/okiwan/#access" @click="isOpen = false">アクセス</a>
     </div>
   </header>
   <div class="h-20"></div>
