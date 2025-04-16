@@ -6,6 +6,9 @@ on:
     branches:
       - master
 
+permissions: # 追加
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
