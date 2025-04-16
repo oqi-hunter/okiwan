@@ -11,7 +11,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import './style.css';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/okiwan/'),
   routes,
 });
 
