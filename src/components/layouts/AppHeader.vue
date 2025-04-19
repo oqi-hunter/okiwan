@@ -5,7 +5,7 @@ const isOpen = ref(false); // メニューの開閉状態を管理
 </script>
 
 <template>
-  <header class="fixed top-0 right-0 left-0 z-10 flex h-20 items-center justify-between bg-orange-500 ps-3 pe-6 xl:px-12">
+  <header class="sticky top-0 right-0 left-0 z-10 flex h-20 items-center justify-between bg-orange-500 ps-3 pe-6 xl:px-12">
     <!-- ロゴ -->
     <img src="/okiwan-logo-l.svg" alt="okiwan" class="h-[60px]" />
     <!-- メニュー（PC表示） -->
