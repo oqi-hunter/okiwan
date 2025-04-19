@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        serinjp: ['Noto Serif JP', 'serif'],
       },
     },
   },
