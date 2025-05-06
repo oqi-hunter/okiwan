@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions: # 追加
-  contents: read
+  contents: write
   pages: write
 
 jobs:
