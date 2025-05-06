@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router';
 import SectionWrapper from '../layouts/SectionWrapper.vue';
 import AppTitle from '../parts/AppTitle.vue';
 import RecruitStepItem from '../parts/RecruitStepItem.vue';
