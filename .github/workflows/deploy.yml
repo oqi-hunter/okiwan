@@ -6,16 +6,23 @@ on:
     branches:
       - master
 
+  workflow_dispatch:
+
 permissions: # 追加
-  contents: write
+  contents: read
+  pages: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: 📥 リポジトリをチェックアウト
         uses: actions/checkout@v3
+
+      - name: 📜 Pagesのセットアップ
+        uses: actions/configure-pages@v3
 
       - name: 🧰 Node.js セットアップ
         uses: actions/setup-node@v3
@@ -32,4 +39,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: gh-pages
           publish_dir: ./dist
