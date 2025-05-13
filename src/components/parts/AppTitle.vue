@@ -12,11 +12,11 @@ withDefaults(
 </script>
 <template>
   <header class="flex flex-col items-center gap-4 text-center" :class="`text-${color}`">
-    <AppH2 :class="color">
+    <p class="text-lg font-semibold">
       <slot name="title"></slot>
-    </AppH2>
-    <p class="border-b-4 border-orange-500 text-2xl font-semibold drop-shadow-2xl">
-      <slot name="description"></slot>
     </p>
+    <AppH2 :class="color" class="drop border-b-4 border-orange-500 drop-shadow-lg">
+      <slot name="description"></slot>
+    </AppH2>
   </header>
 </template>
