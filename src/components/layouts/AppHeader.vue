@@ -35,5 +35,4 @@ const isOpen = ref(false); // メニューの開閉状態を管理
       <a href="/okiwan/#access" @click="isOpen = false">アクセス</a>
     </div>
   </header>
-  <div class="h-20"></div>
 </template>
