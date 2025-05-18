@@ -9,7 +9,7 @@ const props = withDefaults(defineProps<{ border?: boolean }>(), {
     <div class="text-xl font-semibold text-orange-500">
       <slot name="title"></slot>
     </div>
-    <div class="text-lg text-gray-600">
+    <div class="text-base text-gray-600">
       <slot name="description"></slot>
     </div>
   </div>
