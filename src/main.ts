@@ -13,6 +13,9 @@ import './style.css';
 const router = createRouter({
   history: createWebHistory('/okiwan/'),
   routes,
+  scrollBehavior() {
+    return { top: 0 };
+  },
 });
 
 library.add(fas, fab);
